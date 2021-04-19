@@ -1,0 +1,340 @@
+
+body{
+	background-color: #404040 ;
+}
+img{
+	margin: auto;
+}
+
+a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+a hover
+{
+	text-decoration:underline;
+}
+p{
+color: #ffffff;	
+
+}
+
+
+
+.navbar{
+	background-color: #A6A6A6;
+	opacity: 95%;
+}
+
+ul{
+	margin-right: 0 !important;
+	margin-left: auto;
+	display: flex;
+ 
+}
+
+
+
+#one{
+	padding-top: 63px;
+	margin-bottom: 30px;
+}
+
+#one img{
+	max-height: 640px;
+	width: 960px;
+}
+
+li
+{
+text-shadow:1px 3px 2px #000003;
+color: #ffffff;
+padding-right: 15px;
+}
+
+#titless{
+color: #ffffff;
+text-shadow:1px 3px 2px #000000;
+padding-left: 20px;
+font-size: 25px;
+}
+
+#aboutme{
+color: #ffffff;
+display: flex;
+justify-content: center;
+padding: 80px 0px;
+font-size: 36px;
+text-shadow:1px 1px 3px #fff;
+opacity: 0.9;
+
+}
+#aboutme.container{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 24px;
+	text-shadow:2px 3px 2px #000000;
+}
+
+#two{
+	padding-bottom: 40px;
+}
+
+#two #left img{
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+	height: 300px;
+	width: 300px;
+}
+
+#two #right
+{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-top: 10px;
+	clear: both;
+}
+
+}
+#three{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+#three img{
+	display: flex;
+	justify-content:center;
+	margin: auto;
+}
+
+
+#poli{
+background-color:none;
+
+
+}
+
+#prof{
+	padding: 30px;	
+	display: flex;
+}
+
+#prof img{
+	object-fit: cover;
+	display: flex;
+	justify-content:center;
+	height: 200px;
+ 	width: 100%;
+ 	
+
+ 	
+}
+#pd{
+	height: 300px;
+    padding-top: 25px;
+}
+
+#four{
+    
+}
+
+
+
+#serli{
+object-fit: cover;
+background-color: none;
+padding-bottom:150px;
+
+}
+
+
+#prof2{
+	padding: 30px 20px;
+	display: flex;
+}
+
+
+
+#prof2 img{
+	display: flex;
+	justify-content:center;
+ 	height: 100px;
+ 	width: 100px;
+
+}
+
+#four{
+	box-sizing: border-box;
+}
+
+
+
+.up{
+ border: 0px solid black;
+ display: flex;
+justify-content:center;
+}
+
+#pd .up{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ser .up{
+
+	background-color:  #A6A6A6;
+	height: 200px;
+	width: 200px;
+	margin: auto; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10%;
+
+}
+
+
+.low{
+	display: flex;
+	justify-content:center;
+    border: 0px solid black;
+    font-size: 20px;
+  }
+#ser .low{
+	margin-top: 24px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom:15px;
+}
+
+#pd .low{
+	margin-top: 24px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fifth{
+
+	background-image: url(../img/12.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+
+hr{
+	height: 2px;
+    background-color: #ffffff;
+    opacity: 96%;
+    margin-bottom: 55px;
+    margin-top: -10px;
+}
+
+#fifth.container{
+	display: flex;
+	justify-content: center;
+}
+
+#fifth .form {
+	max-width: 600px;
+	margin-left:  auto;
+	margin-right: auto;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom: 30px; 
+	color:#ffffff;
+}
+
+
+
+.form input {
+	opacity: 95%;
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	opacity: 95%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #ABD0CE;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+#send{
+	margin: auto;
+
+}
+
+#sendcontent{
+margin: auto;
+background-color: #0D0D0D;
+}
+
+
+footer{
+
+    height: 80px;
+    color: #ffffff;
+    text-shadow:2px 3px 2px #000000;
+    background-color: #A6A6A6;
+   
+}
+
+
+#ifor{
+	display: flex;
+	    margin-top: 28px;
+	    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
